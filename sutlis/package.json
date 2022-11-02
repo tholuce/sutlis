@@ -7,7 +7,12 @@
   },
   "scripts": {
     "test": "jest test",
-    "eject": "react-scripts eject"
+    "build": ""
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.(ts|tsx)$": "ts-jest"
+    }
   },
   "browserslist": {
     "production": [
@@ -20,5 +25,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/jest": "^29.2.1",
+    "ts-jest": "^29.0.3"
   }
 }

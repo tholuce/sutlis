@@ -1,3 +1,4 @@
+
 export type Partial<T> = T extends Function
   ? T
   : T extends object

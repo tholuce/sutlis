@@ -1,3 +1,4 @@
-export const classnames = (...cls: []): string => {
+
+export const classnames = (...cls: any[]): string => {
   return cls.filter(Boolean).join(" ");
 };

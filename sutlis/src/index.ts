@@ -1,1 +1,4 @@
-print('Need to add common hacks')
+import { Partial } from "./partial";
+import { classnames } from "./classnames";
+
+export { Partial, classnames };
