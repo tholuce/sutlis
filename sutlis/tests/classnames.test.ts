@@ -1,4 +1,4 @@
-import { classnames } from "./index";
+import { classnames } from '../src/classnames';
 
 test("classnames should return string without false and passed", () => {
   expect(classnames("test", false, "", 1, "test1")).toBe("test 1 test1");

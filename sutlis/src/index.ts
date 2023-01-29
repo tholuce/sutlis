@@ -1,4 +1,4 @@
-import { Partial } from "./partial";
+import { type Partial } from "./partials";
 import { classnames } from "./classnames";
 
 export { Partial, classnames };
